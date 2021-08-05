@@ -46,7 +46,5 @@ function draw() {
 
 
 function keyReleased() {
-  if (keyCode === DOWN_ARROW) {
-    cannonBall.shoot()
-  }
+ //use  keydown to call the shoot function
 }
