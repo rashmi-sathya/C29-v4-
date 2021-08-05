@@ -13,10 +13,10 @@ class CannonBall {
   }
 
   shoot() {
-    var velocity = p5.Vector.fromAngle(cannon.angle);
-    velocity.mult(20);
-    Matter.Body.setStatic(this.body, false);
-    Matter.Body.setVelocity(this.body, { x: velocity.x, y: velocity.y });
+    
+    //set the angle of ball to cannon
+    //set static value to the body
+    //set the velocity for the ball to make the ball to move
   }
 
   display() {
